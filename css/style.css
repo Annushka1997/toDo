@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+h1 {
+  color:  rgba(235, 61, 61, 0.945);
+  font-size: 3rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1rem 0 3rem; 
+  font-family: 'Hind', sans-serif;
+}
+
+.title{
+  color: rgb(32, 32, 32);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.inputDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid black;
+  height: 50px;
+  border-radius: 25px;
+  width: 360px;
+  
+  margin: 0.25rem;
+  transition: .5s;
+  font-size: 1.15rem;
+}
+
+.add{
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  margin: 0.25rem;
+}
+
+.add:hover{
+  background-color: rgb(226, 33, 33);
+  opacity: 0.7;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.item{
+  padding: 0.5rem;
+  border-bottom: 4px solid rgb(26, 25, 25);
+  margin-bottom: 1.5rem;
+}
+
+.item_input{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.4rem;
+  width: 245px;
+}
+
+.edit{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.4rem;
+  font-family: 'Hind', sans-serif;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.remove{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgba(238, 0, 0, 0.644);
+  font-size: 1.4rem;
+  font-family: 'Hind', sans-serif;
+  cursor: pointer;
+}
+.trash{
+  outline: none;
+list-style: none;
+  height: 35px;
+  border-radius: 24px;
+  width: 60px;
+  color: rgba(238, 0, 0, 0.644);
+  background-color: rgb(34, 34, 34);
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  margin: 0.25rem;
+}
+
+p {
+  border: 1px solid #eee;
+  outline: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.4rem;
+  font-family: 'Hind', sans-serif;
+  margin: 0 0.5rem;
+}
+
+.save {
+  position: absolute;
+  left: 280px;
+  top: 151px;
+  outline: none;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  width: 35px;
+  background-color: rgba(15, 15, 15, 0.355);
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.save:hover{
+  background-color: rgb(226, 33, 33);
+  opacity: 0.7;
+}
+
